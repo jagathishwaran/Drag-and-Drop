@@ -1,12 +1,12 @@
 
 ## Title
 
-Website Launch countdown
+Drag and Drop
 
 
 ## Description 
 
-A launch countdown site with a visually appealing design, countdown timer, and interactive elements. Get ready for the launch and stay updated with the remaining days, hours, minutes, and seconds. Visit the GitHub repository for more details.
+Drag and Drop Site is a web application that enables users to easily drag and drop list items between two containers. It provides a user-friendly interface for organizing and reordering items. The site features a responsive design with stylish containers and visually appealing list items.
 
 ## Authors
 
@@ -15,70 +15,60 @@ A launch countdown site with a visually appealing design, countdown timer, and i
     
 ## Getting Started
 
-Website launch countdown, follow these steps:
+Drag & Drop web page, follow these steps:
 
-   1. Download the source code:
+   1. Open the HTML file in a web browser.
 
-    --Clone or download the repository.
+   2. You will see two boxes, one on the left and one on the right.
 
-    --Save the files to your local machine.
+   3. The left box contains a list of items that can be dragged and dropped to the right box.
 
-   2. Open the project:
+   4. To drag an item, simply click and hold on it, and then move the mouse to the right box.
 
-    --Use your preferred code editor to open the downloaded project files.
+   5. When the item is over the right box, release the mouse button to drop it.
 
-   3. Customize the code:
+   6. You can drag and drop any of the items in the left box to the right box.
 
-    --Modify the HTML, CSS, and JavaScript files as needed.
+   7. To remove an item from the right box, simply drag it back to the left box.
 
-    --Update the logo, background image, and colors to match your branding.
+   8. You can also add your own items to the left box by creating new HTML elements with the draggable="true" attribute.
 
-    --Adjust the countdown date and maintenance message according to your launch schedule.
+   9. The draggable="true" attribute tells the browser that the element can be dragged and dropped.
 
-   5. Add additional content:
+   10. Once you have added your own items to the left box, you can drag and drop them to the right box just like the other items.
 
-    --Expand the content section with more information about your website launch.
+Here are some additional tips for using the TG Codesyellow_heart Drag & Drop web page:
 
-    --Customize the button text and link to provide relevant information or resources.
+    You can use the dragover and drop events to customize the behavior of the drag and drop functionality.
 
-   6. Test the website countdown:
+    You can also use the draggable attribute to specify which elements can be dragged and dropped.
 
-    --Open the HTML file in a web browser to see the customized countdown in action.
+    The draggable attribute can accept a boolean value, or a list of elements that can be dragged and dropped.
 
-    --Ensure that the countdown timer accurately displays the remaining time until your website launch.
+    For more information on the drag and drop API, please see the MDN documentation:
 
-    --Verify that the zoom effect on the logo works correctly when hovered.
+    https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API.
 
-    --Click the "Learn More" button and confirm that it opens the specified link in a new tab.
 
-   7. Deploy the countdown site:
-
-    --Upload the modified code to your web hosting or server.
-
-    --Follow the deployment instructions provided by your hosting provider.
-
-Note: The provided code offers a foundation for a visually appealing countdown site for your website launch. Feel free to customize it further to add more features, adjust the layout, or incorporate additional animations. Enjoy the flexibility of tailoring the countdown site to build anticipation and engage your audience before your website goes live.
 
 
 
 ## Features
 
 
-   1. Countdown Timer: Stay informed about the upcoming website launch with a dynamic countdown timer.
 
-   2. Visually Appealing Design: Eye-catching background image, logo, and animations enhance the visual experience.
+Drag and drop functionality for list items.
 
-   3. Maintenance Message: A clear message indicating that the website is under maintenance.
+Images and text are grouped together and dragged as a single unit.
 
-   4. Learn More Button: Easily access additional information about the launch by clicking the button.
+Prevents dragging images separately from the list items.
 
-   5. Responsive Layout: The site is designed to be responsive and adapt to different screen sizes.
+Uses the "Poppins" font from Google Fonts.
 
-   6. Zoom Effect: The logo image zooms in when hovered, adding an interactive element.
+Responsive layout with two containers (left and right) separated by dashed borders.
 
-   7. Rocket Animation: A rocket image animates from the bottom to the top, adding a dynamic touch.
+Styling with a blue background for list items and a white background for the containers.
 
-   8. Easy Customization: Modify the content, styling, and countdown date in the code to fit your needs.
 
 
 ## Contributing
